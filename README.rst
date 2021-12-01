@@ -1,45 +1,51 @@
-django-project-skeleton
+Emotion Detector
 =======================
 
-**django-project-skeleton** is my skeleton for Django projects. It provides a
-directory structure for Django projects during development and deployment.
+**Emotion Detector** is our project for face emotion detection using Python machine and deep learing. It provides the ability to
+detect the customers face emotions.
 
 
 Meta
 ----
 
 Author:
-    Mischback
+    spicy boys and one girl
 
 Contributors:
-    `agirardeaudale <https://github.com/agirardeuadale>`_,
-    `jmrbcu <https://github.com/jmrbcu>`_
+    Abdulrahman Dawoud |
+    𝐄𝐦𝐚𝐳𝐢𝐤 |
+    yukikai |
+    G
+    
 
 Status:
     maintained, in development
 
 Version:
-    1.4
+    1
 
 Django Version:
-    3.0, 2.2, 2.1, 2.0, 1.11
+    3.29
+
+Python Version:
+    3.9
 
 
 Usage
 -----
 
-To use this repository just use the ``template`` option of `django-admin
-<https://docs.djangoproject.com/en/2.2/ref/django-admin/#startproject>`_::
+To use this repository just use this repo. First create a folder called ``emotion_detector``::
 
-    $ django-admin startproject --template=https://github.com/Mischback/django-project-skeleton/archive/master.zip [projectname]
+    $ git init
+    $ git clone https://github.com/handyXx/emotion_detector.git
+    
+Than create virtual environment and install the requirement file::
 
-If you wish to automagically fill the ``apache2_vhost.sample`` the command is::
-
-    $ django-admin startproject --template=https://github.com/Mischback/django-project-skeleton/archive/master.zip --name apache2_vhost.sample [projectname]
+    $ python -m venv venv
+    $ source venv/bin/activate      # for linux/unix users
+    $ \venv\Scripts\activate.bat    # for windows users
+    $ pip install -r requirements/development.txt
 
 
 Documentation
 -------------
-
-You can see the documentation over at **Read the Docs**: `django-project-skeleton
-<http://django-project-skeleton.readthedocs.org/en/stable/>`_
